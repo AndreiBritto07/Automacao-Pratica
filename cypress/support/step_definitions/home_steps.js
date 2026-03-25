@@ -12,6 +12,14 @@ When("estou na página inicial", () => {
     homePage.acessaHome()
 });
 
+When ('Eu clico no botão {string} no card {string}', (buttonText, cardName) => {
+    homePage.clicaBotaoCard(buttonText, cardName)
+});
+
 Then("devo ver o título {string}", () => {
     homePage.validaHome()
+});
+
+Then ("Devo ser direcionado para a página de {string}", (tituloPage) => {
+    homePage.validaPaginaCard(tituloPage)
 });
