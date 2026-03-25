@@ -31,3 +31,27 @@ Scenario: Validar funcionalidade do botão explorar do card Tabelas Dinâmicas
 Scenario: Validar funcionalidade do botão explorar do card Upload/Download
     When Eu clico no botão "Explorar" no card "Upload/Download"
     Then Devo ser direcionado para a página de "Upload e Download"
+
+Scenario: Validar funcionalidade do botão explorar do card Autenticação
+    When Eu clico no botão "Explorar" no card "Autenticação"
+    Then Devo ser direcionado para a página de "Autenticação"
+
+Scenario: Validar funcionalidade do botão explorar do card CRUD Operations
+    When Eu clico no botão "Explorar" no card "CRUD Operations"
+    Then Devo ser direcionado para a página de "CRUD Operations"
+
+Scenario: Validar funcionalidade do botão explorar do card API Playground
+    When Eu clico no botão "Explorar" no card "API Playground"
+    Then Devo ser direcionado para a página de "API Playground"
+
+Scenario: Validar funcionalidade do botão explorar do card Desafios
+    When Eu clico no botão "Explorar" no card "Desafios"
+    Then Devo ser direcionado para a página de "Desafios"
+
+Scenario: Validar funcionalidade do botão explorar do card Performance
+    When Eu clico no botão "Explorar" no card "Performance"
+    Then Devo ser direcionado para a página de "Performance"
+
+Scenario: Validar funcionalidade do botão explorar do card Documentação
+    When Eu clico no botão "Explorar" no card "Documentação"
+    Then Devo ser direcionado para a página de "Documentação"    
