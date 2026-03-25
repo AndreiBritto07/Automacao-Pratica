@@ -1,7 +1,7 @@
 #nome da pipeline
 name: Run Basic Testes
 
-# em que momento será executada
+# em que momento será executada a pipe
 on:
     pull_request:
         branches: [master]
